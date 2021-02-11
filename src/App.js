@@ -1,9 +1,11 @@
 import './App.css';
+import SearchBar from './SearchBar'
 
 function App() {
   return (
-    <div className="App">
-      hi
+    <div className="container">
+      <h1 className="title">React Movie Search</h1>
+      <SearchBar/>
     </div>
   );
 }
